@@ -8,3 +8,7 @@ In detectron2/detectron2/modeling/roi_heads/fast_rcnn.py, we have added a sectio
 In detectron2/detectron2/layers/nms.py we added the algorithms for Soft-NMS and Softer-NMS.
 
 Three copy-and-paste methods are stored in Data_Aug, as described in detail in the master thesis. Split.py serves to separate the images in the training set from the .xml files that hold the annotation information.
+
+statistics.ipynb is used to make a count of the categories and bounding boxes of objects in the dataset, counting the categories and the distribution of bounding box sizes and aspect ratios.
+
+visualization_false_boxes.ipynb is used to visualize the output of the object detection model, mainly to highlight false bounding boxes and thus to analyse where the unsatisfactory results are mainly found.
